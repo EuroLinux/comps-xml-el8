@@ -1,13 +1,13 @@
 # comps.xml for EuroLinux 8
 
-comps.xml rebraned from Red Hat.
+comps.xml rebranded from Red Hat.
 
 In EuroLinux CI/CD create `default.xml` symlink to mark which one should be
 used by `repocreate` scripts.
 
 ## How to rebrand
 
-I personally replace with `vim`, but sed or whatever could be used. **Note:**
+I personally replace it with `vim`, but you could use sed or whatever. **Note:**
 the order of substitutions is crucial.
 
 - `Red Hat Enterprise Linux` -> `EuroLinux`
@@ -19,7 +19,7 @@ the order of substitutions is crucial.
 - `redhat-indexhtml*` -> `el-indexhtml*`
 - `codeready` -> `powertools`
 
-You should not change following packages names:
+You must not change the following packages names:
 
 - `redhat-rpm-config`
 - `redhat-lsb-core`
@@ -31,10 +31,10 @@ listed on `Minor Version` checklist.
 
 ### CodeReady
 
-CodeReady is name trademarked protected by Red Hat (and they use it as repo
-name xDDD). The most popular name for this repository is popularized by CentOS
+CodeReady is the name trademarked/protected by Red Hat (and they use it as repo
+name xDDD). CentOS popularize the most popular name for this repository
 `PowerTools`.  Because we are technical folks, not lawyers, and we have to
-somehow mitigate this corporation typical a-move - Just change all `Code Ready`
+somehow mitigate this typical corporation a-move - Change all `Code Ready`
 to `PowerTools` like CentOS did:
 
 More information:
@@ -49,5 +49,5 @@ Use following substitutions then use substitutions that are prestended above:
 
 ## About DocType line
 
-Right now we remove `DOCTYPE` line, but if any client or user make request and
-prove that there is edge-case that require that line we will add it.
+Right now, we remove the `DOCTYPE` line, but if any client or user makes a request and
+prove that there is an edge-case that require that line, we will add it.

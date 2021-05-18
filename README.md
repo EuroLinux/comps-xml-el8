@@ -24,6 +24,17 @@ You must not change the following packages names:
 - `redhat-rpm-config`
 - `redhat-lsb-core`
 
+### Packages removed from baseos-comps (type:name:groupid)
+
+- default:dnf-plugin-subscription-manager:base
+- default:dnf-plugin-subscription-manager:standard
+- default:subscription-manager-cockpit:base
+- default:subscription-manager-cockpit:standard
+- default:subscription-manager-plugin-container:base
+- default:subscription-manager-plugin-container:standard
+- mandatory:subscription-manager:core
+
+
 ### EuroLinux Beast Rebuild systems
 
 Based on `SYSTEM_NAME` variable logos, releases, descriptions etc. This task is

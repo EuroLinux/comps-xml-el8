@@ -35,7 +35,7 @@ You must not change the following packages names:
 - mandatory:subscription-manager:core
 
 
-### EuroLinux Beast Rebuild systems
+### EuroLinux Gaia Rebuild systems
 
 Based on `SYSTEM_NAME` variable logos, releases, descriptions etc. This task is
 listed on `Minor Version` checklist.

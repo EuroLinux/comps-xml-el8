@@ -62,5 +62,6 @@ Use following substitutions then use substitutions that are prestended above:
 
 ## About DocType line
 
-Right now, we remove the `DOCTYPE` line, but if any client or user makes a request and
-prove that there is an edge-case that require that line, we will add it.
+Right now, we remove the `DOCTYPE` line, but if any client or user makes a
+request and prove that there is an edge-case that require that line, we will
+add it.

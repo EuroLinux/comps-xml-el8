@@ -34,6 +34,9 @@ You must not change the following packages names:
 - default:subscription-manager-plugin-container:standard
 - mandatory:subscription-manager:core
 
+### Packages removed from appstream-comps (type:name:groupid)
+- default:insights-client:base
+- default:insights-client:standard
 
 ### EuroLinux Gaia Rebuild systems
 

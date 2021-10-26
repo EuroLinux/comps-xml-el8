@@ -11,6 +11,7 @@ I personally replace it with `vim`, but you could use sed or whatever. **Note:**
 the order of substitutions is crucial.
 
 - `Red Hat Enterprise Linux` -> `EuroLinux`
+- `Red Hat CodeReady Linux Builder` -> `EuroLinux PowerTools Linux Builder`
 - `RHEL` -> `EL`
 - `紅帽企業` (Red Hat Enterprise in Chinese) -> `Euro`
 - `Red Hat` -> `EuroLinux`
@@ -18,6 +19,7 @@ the order of substitutions is crucial.
 - `redhat-release*` -> `el-release*`
 - `redhat-indexhtml*` -> `el-indexhtml*`
 - `codeready` -> `powertools`
+- `CodeReady` -> `PowerTools`
 
 You must not change the following packages names:
 
@@ -48,7 +50,7 @@ listed on `Minor Version` checklist.
 CodeReady is the name trademarked/protected by Red Hat (and they use it as repo
 name xDDD). CentOS popularize the most popular name for this repository
 `PowerTools`.  Because we are technical folks, not lawyers, and we have to
-somehow mitigate this typical corporation a-move - Change all `Code Ready`
+somehow mitigate this typical corporation a-move - Change all `CodeReady`
 to `PowerTools` like CentOS did:
 
 More information:
@@ -63,5 +65,6 @@ Use following substitutions then use substitutions that are prestended above:
 
 ## About DocType line
 
-Right now, we remove the `DOCTYPE` line, but if any client or user makes a request and
-prove that there is an edge-case that require that line, we will add it.
+Right now, we remove the `DOCTYPE` line, but if any client or user makes a
+request and prove that there is an edge-case that require that line, we will
+add it.

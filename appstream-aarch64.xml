@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE comps PUBLIC "-//Red Hat, Inc.//DTD Comps info//EN" "comps.dtd">
 <comps>
   <group>
     <id>networkmanager-submodules</id>
@@ -1874,22 +1873,21 @@
     <name xml:lang="ru">Стандарт</name>
     <name xml:lang="zh_CN">标准安装</name>
     <name xml:lang="zh_TW">標準</name>
-    <description>The standard installation of Red Hat Enterprise Linux.</description>
-    <description xml:lang="de">Die Standardinstallation von Red Hat Enterprise Linux.</description>
-    <description xml:lang="es">La instalación estándar de Red Hat Enterprise Linux.</description>
-    <description xml:lang="fr">Installation standard de Red Hat Enterprise Linux.</description>
-    <description xml:lang="it">L'installazione standard di Red Hat Enterprise Linux.</description>
-    <description xml:lang="ja">Red Hat Enterprise Linux の標準インストールです。</description>
-    <description xml:lang="ko">Red Hat Enterprise Linux의 표준 설치입니다.</description>
-    <description xml:lang="pt_BR">A instalação padrão do Red Hat Enterprise Linux.</description>
-    <description xml:lang="ru">Стандартная установка Red Hat Enterprise Linux.</description>
-    <description xml:lang="zh_CN">Red Hat Enterprise Linux 的标准安装。</description>
-    <description xml:lang="zh_TW">紅帽企業Linux的標準安裝。</description>
+    <description>The standard installation of EuroLinux.</description>
+    <description xml:lang="de">Die Standardinstallation von EuroLinux.</description>
+    <description xml:lang="es">La instalación estándar de EuroLinux.</description>
+    <description xml:lang="fr">Installation standard de EuroLinux.</description>
+    <description xml:lang="it">L'installazione standard di EuroLinux.</description>
+    <description xml:lang="ja">EuroLinux の標準インストールです。</description>
+    <description xml:lang="ko">EuroLinux의 표준 설치입니다.</description>
+    <description xml:lang="pt_BR">A instalação padrão do EuroLinux.</description>
+    <description xml:lang="ru">Стандартная установка EuroLinux.</description>
+    <description xml:lang="zh_CN">EuroLinux 的标准安装。</description>
+    <description xml:lang="zh_TW">EuroLinux的標準安裝。</description>
     <packagelist>
       <packagereq type="mandatory">rsyslog-gnutls</packagereq>
       <packagereq type="mandatory">rsyslog-gssapi</packagereq>
       <packagereq type="mandatory">rsyslog-relp</packagereq>
-      <packagereq type="default">insights-client</packagereq>
       <packagereq type="default">nmap-ncat</packagereq>
       <packagereq type="default">pinfo</packagereq>
       <packagereq type="default">plymouth</packagereq>
@@ -2511,22 +2509,21 @@
     <name xml:lang="zh_CN">基本</name>
     <name xml:lang="zh_TW">基礎</name>
     <name xml:lang="zu">Isiqu</name>
-    <description>The standard installation of Red Hat Enterprise Linux.</description>
-    <description xml:lang="de">Die Standardinstallation von Red Hat Enterprise Linux.</description>
-    <description xml:lang="es">La instalación estándar de Red Hat Enterprise Linux.</description>
-    <description xml:lang="fr">Installation standard de Red Hat Enterprise Linux.</description>
-    <description xml:lang="it">L'installazione standard di Red Hat Enterprise Linux.</description>
-    <description xml:lang="ja">Red Hat Enterprise Linux の標準インストールです。</description>
-    <description xml:lang="ko">Red Hat Enterprise Linux의 표준 설치입니다.</description>
-    <description xml:lang="pt_BR">A instalação padrão do Red Hat Enterprise Linux.</description>
-    <description xml:lang="ru">Стандартная установка Red Hat Enterprise Linux.</description>
-    <description xml:lang="zh_CN">Red Hat Enterprise Linux 的标准安装。</description>
-    <description xml:lang="zh_TW">紅帽企業Linux的標準安裝。</description>
+    <description>The standard installation of EuroLinux.</description>
+    <description xml:lang="de">Die Standardinstallation von EuroLinux.</description>
+    <description xml:lang="es">La instalación estándar de EuroLinux.</description>
+    <description xml:lang="fr">Installation standard de EuroLinux.</description>
+    <description xml:lang="it">L'installazione standard di EuroLinux.</description>
+    <description xml:lang="ja">EuroLinux の標準インストールです。</description>
+    <description xml:lang="ko">EuroLinux의 표준 설치입니다.</description>
+    <description xml:lang="pt_BR">A instalação padrão do EuroLinux.</description>
+    <description xml:lang="ru">Стандартная установка EuroLinux.</description>
+    <description xml:lang="zh_CN">EuroLinux 的标准安装。</description>
+    <description xml:lang="zh_TW">EuroLinux的標準安裝。</description>
     <packagelist>
       <packagereq type="mandatory">rsyslog-gnutls</packagereq>
       <packagereq type="mandatory">rsyslog-gssapi</packagereq>
       <packagereq type="mandatory">rsyslog-relp</packagereq>
-      <packagereq type="default">insights-client</packagereq>
       <packagereq type="default">nmap-ncat</packagereq>
       <packagereq type="default">pinfo</packagereq>
       <packagereq type="default">plymouth</packagereq>
@@ -2992,17 +2989,17 @@
     <name xml:lang="zh">Linux 的遠端管理</name>
     <name xml:lang="zh_CN">Linux 的远程管理</name>
     <name xml:lang="zh_TW">Linux 的遠端管理</name>
-    <description>Remote management interface for Red Hat Enterprise Linux.</description>
-    <description xml:lang="de">Fernverwaltungsschnittstelle für Red Hat Enterprise Linux.</description>
-    <description xml:lang="es">Interfaz de administración remota para Red Hat Enterprise Linux.</description>
-    <description xml:lang="fr">Interface de gestion à distance de Red Hat Enterprise Linux.</description>
-    <description xml:lang="it">Interfaccia di gestione remota per Red Hat Enterprise Linux.</description>
-    <description xml:lang="ja">Red Hat Enterprise Linux のリモート管理インターフェイス。</description>
-    <description xml:lang="ko">Red Hat Enterprise Linux 용 원격 관리 인터페이스입니다.</description>
-    <description xml:lang="pt_BR">Interface de gerenciamento remoto para o Red Hat Enterprise Linux.</description>
-    <description xml:lang="ru">Интерфейс удаленного управления для Red Hat Enterprise Linux.</description>
-    <description xml:lang="zh_CN">Red Hat Enterprise Linux 的远程管理界面。</description>
-    <description xml:lang="zh_TW">紅帽企業Linux的遠程管理界面。</description>
+    <description>Remote management interface for EuroLinux.</description>
+    <description xml:lang="de">Fernverwaltungsschnittstelle für EuroLinux.</description>
+    <description xml:lang="es">Interfaz de administración remota para EuroLinux.</description>
+    <description xml:lang="fr">Interface de gestion à distance de EuroLinux.</description>
+    <description xml:lang="it">Interfaccia di gestione remota per EuroLinux.</description>
+    <description xml:lang="ja">EuroLinux のリモート管理インターフェイス。</description>
+    <description xml:lang="ko">EuroLinux 용 원격 관리 인터페이스입니다.</description>
+    <description xml:lang="pt_BR">Interface de gerenciamento remoto para o EuroLinux.</description>
+    <description xml:lang="ru">Интерфейс удаленного управления для EuroLinux.</description>
+    <description xml:lang="zh_CN">EuroLinux 的远程管理界面。</description>
+    <description xml:lang="zh_TW">EuroLinux的遠程管理界面。</description>
     <packagelist>
       <packagereq type="default">net-snmp</packagereq>
       <packagereq type="default">net-snmp-utils</packagereq>
@@ -3412,35 +3409,35 @@
     <name xml:lang="zh">Java 平台</name>
     <name xml:lang="zh_CN">Java 平台</name>
     <name xml:lang="zh_TW">Java 平台</name>
-    <description>Java support for the Red Hat Enterprise Linux Server and Desktop Platforms.</description>
-    <description xml:lang="as">Red Hat Enterprise Linux Server আৰু Desktop Platform ৰ বাবে Java সমৰ্থন।</description>
-    <description xml:lang="bn">Red Hat Enterprise Linux Server ও Desktop Platform-র জন্য Java সমর্থন।</description>
-    <description xml:lang="cs">Podpora pro Javu na platformách Red Hat Enterprise Linux Server a Desktop.</description>
-    <description xml:lang="de">Java-Unterstützung für die Red Hat Enterprise Linux- und Desktop-Plattformen.</description>
-    <description xml:lang="de_CH">Java-Unterstützung für die Red Hat Enterprise Linux- und Desktop-Plattformen.</description>
-    <description xml:lang="es">Soporte de Java para Servidor de Red Hat Enterprise Linux y plataformas de escritorio.</description>
-    <description xml:lang="fr">Prise en charge Java pour les plateformes serveur et bureau de Red Hat Enterprise Linux.</description>
-    <description xml:lang="gu">Red Hat Enterprise Linux સર્વર અને ડેસ્કટોપ પ્લેટફોર્મ માટે Java આધાર.</description>
-    <description xml:lang="hi">Red Hat Enterprise Linux Server और Desktop प्लैटफॉर्म के लिए जावा स्क्रिप्ट.</description>
-    <description xml:lang="it">Supporto Java per piattaforme desktop e Red Hat Enterprise Linux Server.</description>
-    <description xml:lang="ja">Red Hat Enterprise Linux Server Platform と Desktop Platform の Java サポート。</description>
-    <description xml:lang="kn">Red Hat Enterprise Linux ಪೂರೈಕೆಗಣಕ ಹಾಗು ಗಣಕತೆರೆ ಪ್ಲಾಟ್‌ಫಾರ್ಮುಗಳಿಗಾಗಿನ Java ಬೆಂಬಲ.</description>
-    <description xml:lang="ko">Red Hat Enterprise Linux 서버와 데스크탑 플랫폼을 위한 자바 지원.</description>
-    <description xml:lang="ml">Red Hat Enterprise Linux സര്‍വര്‍, ഡസ്ക്ടോപ്പ് പ്ലാറ്റ്ഫോമുകള്‍ക്കുള്ള ജാവാ പിന്തുണ.</description>
-    <description xml:lang="mr">Red Hat Enterprise Linux Server व Desktop Platforms करीता Java समर्थन.</description>
-    <description xml:lang="or">Red Hat Enterprise Linux ସର୍ଭର ଏବଂ Desktop ପ୍ଲାଟଫର୍ମଗୁଡ଼ିକ ପାଇଁ Java ସମର୍ଥନ।</description>
-    <description xml:lang="pa">Red Hat Enterprise Linux ਸਰਵਰ ਅਤੇ ਡੈਸਕਟਾਪ ਪਲੇਟਫਾਰਮ ਲਈ ਜਾਵਾ ਸਮਰਥਨ।</description>
-    <description xml:lang="pl">Obsługa języka Java dla platformy serwerowej i pulpitu systemu Red Hat Enterprise Linux.</description>
-    <description xml:lang="pt">Suporte Java para o Servidor Red Hat Enterprise Linux e Plataformas de Desktop.</description>
-    <description xml:lang="pt_BR">Suporte Java para o Servidor Red Hat Enterprise Linux e Plataformas de Desktop.</description>
-    <description xml:lang="ru">Поддержка Java для Red Hat Enterprise Linux Server и Desktop.</description>
-    <description xml:lang="sv">Javastöd för Red Hat Enterprise Linux server- och skrivbordsplattformar.</description>
-    <description xml:lang="ta">Red Hat Enterprise Linux சேவையகம் மற்றும் பணிமேடை ஃப்ளாட்பார்மிற்கான ஜாவா ஆதரவு.</description>
-    <description xml:lang="te">Red Hat Enterprise Linux సర్వర్ మరియు డెస్కుటాప్ ప్లాట్‌ఫాంల కొరకు జావా మద్దతు.</description>
-    <description xml:lang="uk">Підтримка Java для Red Hat Enterprise Linux Server та Desktop.</description>
-    <description xml:lang="zh">Red Hat Enterprise Linux Server 和 Desktop Platforms 的 Java 支援。</description>
-    <description xml:lang="zh_CN">Red Hat Enterprise Linux 服务器和桌面平台的 Java 支持。</description>
-    <description xml:lang="zh_TW">Red Hat Enterprise Linux Server 和 Desktop Platforms 的 Java 支援。</description>
+    <description>Java support for the EuroLinux Server and Desktop Platforms.</description>
+    <description xml:lang="as">EuroLinux Server আৰু Desktop Platform ৰ বাবে Java সমৰ্থন।</description>
+    <description xml:lang="bn">EuroLinux Server ও Desktop Platform-র জন্য Java সমর্থন।</description>
+    <description xml:lang="cs">Podpora pro Javu na platformách EuroLinux Server a Desktop.</description>
+    <description xml:lang="de">Java-Unterstützung für die EuroLinux- und Desktop-Plattformen.</description>
+    <description xml:lang="de_CH">Java-Unterstützung für die EuroLinux- und Desktop-Plattformen.</description>
+    <description xml:lang="es">Soporte de Java para Servidor de EuroLinux y plataformas de escritorio.</description>
+    <description xml:lang="fr">Prise en charge Java pour les plateformes serveur et bureau de EuroLinux.</description>
+    <description xml:lang="gu">EuroLinux સર્વર અને ડેસ્કટોપ પ્લેટફોર્મ માટે Java આધાર.</description>
+    <description xml:lang="hi">EuroLinux Server और Desktop प्लैटफॉर्म के लिए जावा स्क्रिप्ट.</description>
+    <description xml:lang="it">Supporto Java per piattaforme desktop e EuroLinux Server.</description>
+    <description xml:lang="ja">EuroLinux Server Platform と Desktop Platform の Java サポート。</description>
+    <description xml:lang="kn">EuroLinux ಪೂರೈಕೆಗಣಕ ಹಾಗು ಗಣಕತೆರೆ ಪ್ಲಾಟ್‌ಫಾರ್ಮುಗಳಿಗಾಗಿನ Java ಬೆಂಬಲ.</description>
+    <description xml:lang="ko">EuroLinux 서버와 데스크탑 플랫폼을 위한 자바 지원.</description>
+    <description xml:lang="ml">EuroLinux സര്‍വര്‍, ഡസ്ക്ടോപ്പ് പ്ലാറ്റ്ഫോമുകള്‍ക്കുള്ള ജാവാ പിന്തുണ.</description>
+    <description xml:lang="mr">EuroLinux Server व Desktop Platforms करीता Java समर्थन.</description>
+    <description xml:lang="or">EuroLinux ସର୍ଭର ଏବଂ Desktop ପ୍ଲାଟଫର୍ମଗୁଡ଼ିକ ପାଇଁ Java ସମର୍ଥନ।</description>
+    <description xml:lang="pa">EuroLinux ਸਰਵਰ ਅਤੇ ਡੈਸਕਟਾਪ ਪਲੇਟਫਾਰਮ ਲਈ ਜਾਵਾ ਸਮਰਥਨ।</description>
+    <description xml:lang="pl">Obsługa języka Java dla platformy serwerowej i pulpitu systemu EuroLinux.</description>
+    <description xml:lang="pt">Suporte Java para o Servidor EuroLinux e Plataformas de Desktop.</description>
+    <description xml:lang="pt_BR">Suporte Java para o Servidor EuroLinux e Plataformas de Desktop.</description>
+    <description xml:lang="ru">Поддержка Java для EuroLinux Server и Desktop.</description>
+    <description xml:lang="sv">Javastöd för EuroLinux server- och skrivbordsplattformar.</description>
+    <description xml:lang="ta">EuroLinux சேவையகம் மற்றும் பணிமேடை ஃப்ளாட்பார்மிற்கான ஜாவா ஆதரவு.</description>
+    <description xml:lang="te">EuroLinux సర్వర్ మరియు డెస్కుటాప్ ప్లాట్‌ఫాంల కొరకు జావా మద్దతు.</description>
+    <description xml:lang="uk">Підтримка Java для EuroLinux Server та Desktop.</description>
+    <description xml:lang="zh">EuroLinux Server 和 Desktop Platforms 的 Java 支援。</description>
+    <description xml:lang="zh_CN">EuroLinux 服务器和桌面平台的 Java 支持。</description>
+    <description xml:lang="zh_TW">EuroLinux Server 和 Desktop Platforms 的 Java 支援。</description>
     <packagelist>
       <packagereq type="mandatory">java-1.8.0-openjdk</packagereq>
       <packagereq type="default">icedtea-web</packagereq>
@@ -4282,33 +4279,33 @@
     <name xml:lang="zh">平台開發</name>
     <name xml:lang="zh_CN">平台开发</name>
     <name xml:lang="zh_TW">平台開發</name>
-    <description>Recommended development headers and libraries for developing applications to run on Red Hat Enterprise Linux.</description>
-    <description xml:lang="as">Red Hat Enterprise Linux ত সঞ্চালনযোগ্য এপ্লিকেচন নিৰ্মাণৰ বাবে উপদেশিত উন্নয়ন হেডাৰ আৰু লাইব্ৰেৰী।</description>
-    <description xml:lang="cs">Doporučené knihovny a hlavičkové soubory pro vývoj aplikací pro Red Hat Enterprise Linux.</description>
-    <description xml:lang="de">Empfohlene Entwicklungs-Header und Bibliotheken zur Entwicklung von Anwendungen, die auf Red Hat Enterprise Linux laufen sollen.</description>
-    <description xml:lang="de_CH">Empfohlene Entwicklungs-Header und Bibliotheken zur Entwicklung von Anwendungen, die auf Red Hat Enterprise Linux laufen sollen.</description>
-    <description xml:lang="es">Cabeceras de desarrollo y bibliotecas recomendadas para aplicaciones en desarrollo a ejecutarse en la plataforma de Red Hat Enterprise Linux.</description>
-    <description xml:lang="fr">En-têtes et bibliothèques de développement recommandés pour développer des applications fonctionnant sur Red Hat Enterprise Linux.</description>
-    <description xml:lang="gu">Red Hat Enterprise Linux પર ચલાવવા માટે કાર્યક્રમો વિકસાવવા માટેની આગ્રહણીય વિકાસ હેડરો અને લાઇબ્રેરીઓ.</description>
-    <description xml:lang="hi">Red Hat Enterprise Linux पर चलने के लिए डेस्कटॉप अनुप्रयोगों के लिए विकास अनुशंसित शीर्षिका और लाइब्रेरी.</description>
-    <description xml:lang="it">Librerie e intestazioni di sviluppo consigliate per lo sviluppo delle applicazioni per l'esecuzione su Red Hat Enterprise Linux.</description>
-    <description xml:lang="ja">Red Hat Enterprise Linux 上で実行するアプリケーション開発で推奨されている開発ヘッダーおよびライブラリーです。</description>
-    <description xml:lang="kn">Red Hat Enterprise Linux ನಲ್ಲಿ ಚಲಾಯಿಸಲು ಅನ್ವಯಗಳನ್ನು ವಿಕಸನಗೊಳಿಸುವುದಕ್ಕಾಗಿ ಸಲಹೆ ಮಾಡಲಾಗುವ ವಿಕಸನಾ ಹೆಡರುಗಳು ಹಾಗು ಲೈಬ್ರರಿಗಳು.</description>
-    <description xml:lang="ko">Red Hat Enterprise Linux에서 실행되는 애플리케이션 개발 용으로 권장하는개발 헤더 및 라이브러리.</description>
-    <description xml:lang="ml">Red Hat Enterprise Linux-ല്‍ നടപ്പിലാക്കുന്നതിനുള്ള പ്രയോഗങ്ങള്‍ വികസിപ്പിയ്ക്കുന്നതിനുള്ള ഉചിതമായ വികസന ഹെഡറുകളും ലൈബ്രറികളും</description>
-    <description xml:lang="mr">Red Hat Enterprise Linux वर चालवण्याजोगी ॲप्लिकेशन्स विकसीत करण्यासाठी शिफारसीय डेव्हलपमेंट हेडर्स आणि लाइब्ररिज.</description>
-    <description xml:lang="or">Red Hat Enterprise Linux ସର୍ଭର ଉପରେ ପ୍ଲାଟଫର୍ମକୁ ଚଲାଇବା ପାଇଁ ପରାମର୍ଶିତ ବିକାଶ ଶୀର୍ଷକ ଏବଂ ବିକାଶଶୀଳ ପ୍ରୟୋଗଗୁଡ଼ିକ ପାଇଁ ଲାଇବ୍ରେରୀ।</description>
-    <description xml:lang="pa">Red Hat Enterprise Linux ਉੱਤੇ ਚਲਾਉਣ ਲਈ ਐਪਲੀਕੇਸ਼ਨਾਂ ਦੇ ਵਿਕਾਸ ਲਈ ਸਿਫਾਰਸ਼ੀ ਵਿਕਾਸ ਹੈਡਰ ਅਤੇ ਲਾਇਬਰੇਰੀਆਂ।</description>
-    <description xml:lang="pl">Nagłówki i biblioteki zalecane do tworzenia aplikacji uruchamianych w systemie Red Hat Enterprise Linux.</description>
-    <description xml:lang="pt">Cabeçalhos de desenvolvimento recomendado e bibliotecas para aplicativos de desenvolvimento para serem executados no Red Hat Enterprise Linux.</description>
-    <description xml:lang="pt_BR">Cabeçalhos de desenvolvimento recomendado e bibliotecas para aplicativos de desenvolvimento para serem executados no Red Hat Enterprise Linux.</description>
-    <description xml:lang="ru">Библиотеки и файлы заголовков для разработки приложений на платформе Red Hat Enterprise Linux.</description>
-    <description xml:lang="ta">Red Hat Enterprise Linux இல் இயக்குவதற்கான பயன்பாடுகளை உருவாக்குவதற்கான, உருவாக்க தலைப்புகள் மற்றும் தரவகங்கள்.</description>
-    <description xml:lang="te">Red Hat Enterprise Linux పైన నడిచే అనువర్తనాలు అభివృద్ది చేయుటకు సిఫార్సు చేసిన హెడర్లు మరియు లైబ్రరీలు.</description>
-    <description xml:lang="uk">Рекомендовані бібліотеки та файли заголовків для розробки програм для платформи Red Hat Enterprise Linux.</description>
-    <description xml:lang="zh">用來開發在 Red Hat Enterprise Linux 上執行的應用程式的建議開發表頭與函式庫。</description>
-    <description xml:lang="zh_CN">推荐在用于开发在 Red Hat Enterprise Linux 中所运行应用程序的标头及程序库。</description>
-    <description xml:lang="zh_TW">用來開發在 Red Hat Enterprise Linux 上執行的應用程式的建議開發表頭與函式庫。</description>
+    <description>Recommended development headers and libraries for developing applications to run on EuroLinux.</description>
+    <description xml:lang="as">EuroLinux ত সঞ্চালনযোগ্য এপ্লিকেচন নিৰ্মাণৰ বাবে উপদেশিত উন্নয়ন হেডাৰ আৰু লাইব্ৰেৰী।</description>
+    <description xml:lang="cs">Doporučené knihovny a hlavičkové soubory pro vývoj aplikací pro EuroLinux.</description>
+    <description xml:lang="de">Empfohlene Entwicklungs-Header und Bibliotheken zur Entwicklung von Anwendungen, die auf EuroLinux laufen sollen.</description>
+    <description xml:lang="de_CH">Empfohlene Entwicklungs-Header und Bibliotheken zur Entwicklung von Anwendungen, die auf EuroLinux laufen sollen.</description>
+    <description xml:lang="es">Cabeceras de desarrollo y bibliotecas recomendadas para aplicaciones en desarrollo a ejecutarse en la plataforma de EuroLinux.</description>
+    <description xml:lang="fr">En-têtes et bibliothèques de développement recommandés pour développer des applications fonctionnant sur EuroLinux.</description>
+    <description xml:lang="gu">EuroLinux પર ચલાવવા માટે કાર્યક્રમો વિકસાવવા માટેની આગ્રહણીય વિકાસ હેડરો અને લાઇબ્રેરીઓ.</description>
+    <description xml:lang="hi">EuroLinux पर चलने के लिए डेस्कटॉप अनुप्रयोगों के लिए विकास अनुशंसित शीर्षिका और लाइब्रेरी.</description>
+    <description xml:lang="it">Librerie e intestazioni di sviluppo consigliate per lo sviluppo delle applicazioni per l'esecuzione su EuroLinux.</description>
+    <description xml:lang="ja">EuroLinux 上で実行するアプリケーション開発で推奨されている開発ヘッダーおよびライブラリーです。</description>
+    <description xml:lang="kn">EuroLinux ನಲ್ಲಿ ಚಲಾಯಿಸಲು ಅನ್ವಯಗಳನ್ನು ವಿಕಸನಗೊಳಿಸುವುದಕ್ಕಾಗಿ ಸಲಹೆ ಮಾಡಲಾಗುವ ವಿಕಸನಾ ಹೆಡರುಗಳು ಹಾಗು ಲೈಬ್ರರಿಗಳು.</description>
+    <description xml:lang="ko">EuroLinux에서 실행되는 애플리케이션 개발 용으로 권장하는개발 헤더 및 라이브러리.</description>
+    <description xml:lang="ml">EuroLinux-ല്‍ നടപ്പിലാക്കുന്നതിനുള്ള പ്രയോഗങ്ങള്‍ വികസിപ്പിയ്ക്കുന്നതിനുള്ള ഉചിതമായ വികസന ഹെഡറുകളും ലൈബ്രറികളും</description>
+    <description xml:lang="mr">EuroLinux वर चालवण्याजोगी ॲप्लिकेशन्स विकसीत करण्यासाठी शिफारसीय डेव्हलपमेंट हेडर्स आणि लाइब्ररिज.</description>
+    <description xml:lang="or">EuroLinux ସର୍ଭର ଉପରେ ପ୍ଲାଟଫର୍ମକୁ ଚଲାଇବା ପାଇଁ ପରାମର୍ଶିତ ବିକାଶ ଶୀର୍ଷକ ଏବଂ ବିକାଶଶୀଳ ପ୍ରୟୋଗଗୁଡ଼ିକ ପାଇଁ ଲାଇବ୍ରେରୀ।</description>
+    <description xml:lang="pa">EuroLinux ਉੱਤੇ ਚਲਾਉਣ ਲਈ ਐਪਲੀਕੇਸ਼ਨਾਂ ਦੇ ਵਿਕਾਸ ਲਈ ਸਿਫਾਰਸ਼ੀ ਵਿਕਾਸ ਹੈਡਰ ਅਤੇ ਲਾਇਬਰੇਰੀਆਂ।</description>
+    <description xml:lang="pl">Nagłówki i biblioteki zalecane do tworzenia aplikacji uruchamianych w systemie EuroLinux.</description>
+    <description xml:lang="pt">Cabeçalhos de desenvolvimento recomendado e bibliotecas para aplicativos de desenvolvimento para serem executados no EuroLinux.</description>
+    <description xml:lang="pt_BR">Cabeçalhos de desenvolvimento recomendado e bibliotecas para aplicativos de desenvolvimento para serem executados no EuroLinux.</description>
+    <description xml:lang="ru">Библиотеки и файлы заголовков для разработки приложений на платформе EuroLinux.</description>
+    <description xml:lang="ta">EuroLinux இல் இயக்குவதற்கான பயன்பாடுகளை உருவாக்குவதற்கான, உருவாக்க தலைப்புகள் மற்றும் தரவகங்கள்.</description>
+    <description xml:lang="te">EuroLinux పైన నడిచే అనువర్తనాలు అభివృద్ది చేయుటకు సిఫార్సు చేసిన హెడర్లు మరియు లైబ్రరీలు.</description>
+    <description xml:lang="uk">Рекомендовані бібліотеки та файли заголовків для розробки програм для платформи EuroLinux.</description>
+    <description xml:lang="zh">用來開發在 EuroLinux 上執行的應用程式的建議開發表頭與函式庫。</description>
+    <description xml:lang="zh_CN">推荐在用于开发在 EuroLinux 中所运行应用程序的标头及程序库。</description>
+    <description xml:lang="zh_TW">用來開發在 EuroLinux 上執行的應用程式的建議開發表頭與函式庫。</description>
     <packagelist>
       <packagereq type="mandatory">atk-devel</packagereq>
       <packagereq type="mandatory">cairo-devel</packagereq>

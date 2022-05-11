@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE comps PUBLIC "-//Red Hat, Inc.//DTD Comps info//EN" "comps.dtd">
 <comps>
   <group>
     <id>ha-devel</id>
@@ -124,6 +125,7 @@
       <packagereq type="optional">resource-agents</packagereq>
       <packagereq type="optional">resource-agents-aliyun</packagereq>
       <packagereq type="optional">resource-agents-gcp</packagereq>
+      <packagereq type="optional">resource-agents-paf</packagereq>
       <packagereq type="optional">sbd</packagereq>
       <packagereq type="optional">spausedd</packagereq>
     </packagelist>

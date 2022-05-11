@@ -124,6 +124,7 @@
       <packagereq type="optional">resource-agents</packagereq>
       <packagereq type="optional">resource-agents-aliyun</packagereq>
       <packagereq type="optional">resource-agents-gcp</packagereq>
+      <packagereq type="optional">resource-agents-paf</packagereq>
       <packagereq type="optional">sbd</packagereq>
       <packagereq type="optional">spausedd</packagereq>
     </packagelist>

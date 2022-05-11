@@ -310,7 +310,6 @@
       <packagereq type="mandatory">shadow-utils</packagereq>
       <packagereq type="mandatory">sssd-common</packagereq>
       <packagereq type="mandatory">sssd-kcm</packagereq>
-      <packagereq type="mandatory">subscription-manager</packagereq>
       <packagereq type="mandatory">sudo</packagereq>
       <packagereq type="mandatory">systemd</packagereq>
       <packagereq type="mandatory">tuned</packagereq>
@@ -468,7 +467,6 @@
       <packagereq type="default">chrony</packagereq>
       <packagereq type="default">cockpit</packagereq>
       <packagereq type="default">cryptsetup</packagereq>
-      <packagereq type="default">dnf-plugin-subscription-manager</packagereq>
       <packagereq type="default">dos2unix</packagereq>
       <packagereq type="default">dosfstools</packagereq>
       <packagereq type="default">ethtool</packagereq>
@@ -490,7 +488,6 @@
       <packagereq type="default">sos</packagereq>
       <packagereq type="default">sssd</packagereq>
       <packagereq type="default">strace</packagereq>
-      <packagereq type="default">subscription-manager-cockpit</packagereq>
       <packagereq type="default">teamd</packagereq>
       <packagereq type="default">time</packagereq>
       <packagereq type="default">unzip</packagereq>
@@ -1173,7 +1170,6 @@
       <packagereq type="default">chrony</packagereq>
       <packagereq type="default">cockpit</packagereq>
       <packagereq type="default">cryptsetup</packagereq>
-      <packagereq type="default">dnf-plugin-subscription-manager</packagereq>
       <packagereq type="default">dos2unix</packagereq>
       <packagereq type="default">dosfstools</packagereq>
       <packagereq type="default">ethtool</packagereq>
@@ -1195,7 +1191,6 @@
       <packagereq type="default">sos</packagereq>
       <packagereq type="default">sssd</packagereq>
       <packagereq type="default">strace</packagereq>
-      <packagereq type="default">subscription-manager-cockpit</packagereq>
       <packagereq type="default">teamd</packagereq>
       <packagereq type="default">time</packagereq>
       <packagereq type="default">unzip</packagereq>

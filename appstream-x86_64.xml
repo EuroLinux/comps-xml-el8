@@ -823,7 +823,6 @@
       <packagereq type="mandatory">rsyslog-gssapi</packagereq>
       <packagereq type="mandatory">rsyslog-relp</packagereq>
       <packagereq type="default">fprintd-pam</packagereq>
-      <packagereq type="default">insights-client</packagereq>
       <packagereq type="default">nmap-ncat</packagereq>
       <packagereq type="default">pinfo</packagereq>
       <packagereq type="default">plymouth</packagereq>
@@ -4079,7 +4078,6 @@
       <packagereq type="mandatory">rsyslog-gssapi</packagereq>
       <packagereq type="mandatory">rsyslog-relp</packagereq>
       <packagereq type="default">fprintd-pam</packagereq>
-      <packagereq type="default">insights-client</packagereq>
       <packagereq type="default">nmap-ncat</packagereq>
       <packagereq type="default">pinfo</packagereq>
       <packagereq type="default">plymouth</packagereq>

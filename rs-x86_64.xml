@@ -74,6 +74,7 @@
       <packagereq type="default">fence-agents-aws</packagereq>
       <packagereq type="default">fence-agents-azure-arm</packagereq>
       <packagereq type="default">fence-agents-gce</packagereq>
+      <packagereq type="default">fence-agents-openstack</packagereq>
       <packagereq type="default">omping</packagereq>
       <packagereq type="default">pacemaker-doc</packagereq>
       <packagereq type="default">pcs</packagereq>
@@ -162,6 +163,7 @@
       <packagereq type="mandatory">gfs2-utils</packagereq>
       <packagereq type="mandatory">lvm2-lockd</packagereq>
       <packagereq type="default">dlm</packagereq>
+      <packagereq type="default">fence-agents-openstack</packagereq>
       <packagereq type="optional">cmirror</packagereq>
       <packagereq type="optional">ctdb</packagereq>
       <packagereq type="optional">resource-agents</packagereq>

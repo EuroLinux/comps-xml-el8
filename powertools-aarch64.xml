@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <comps>
   <group>
-    <id>powertools-builder</id>
+    <id>powertools</id>
     <default>true</default>
     <uservisible>false</uservisible>
     <display_order>1024</display_order>
-    <name>PowerTools Builder</name>
-    <name xml:lang="de">PowerTools Builder</name>
+    <name>PowerTools</name>
+    <name xml:lang="de">PowerTools</name>
     <name xml:lang="es">Constructor PowerTools</name>
-    <name xml:lang="fr">PowerTools Builder</name>
-    <name xml:lang="it">PowerTools Builder</name>
-    <name xml:lang="ja">PowerTools Builder</name>
-    <name xml:lang="ko">PowerTools Builder</name>
+    <name xml:lang="fr">PowerTools</name>
+    <name xml:lang="it">PowerTools</name>
+    <name xml:lang="ja">PowerTools</name>
+    <name xml:lang="ko">PowerTools</name>
     <name xml:lang="pt">Construtor PowerTools</name>
     <name xml:lang="pt_BR">Construtor PowerTools</name>
-    <name xml:lang="ru">PowerTools Builder</name>
-    <name xml:lang="zh_CN">PowerTools Builder</name>
-    <name xml:lang="zh_TW">PowerTools Builder</name>
-    <description>EuroLinux PowerTools Linux Builder packages.</description>
-    <description xml:lang="de">EuroLinux PowerTools Linux Builder-Pakete.</description>
-    <description xml:lang="es">Paquetes EuroLinux PowerTools Linux Builder.</description>
-    <description xml:lang="fr">Packages pour EuroLinux PowerTools Linux Builder.</description>
+    <name xml:lang="ru">PowerTools</name>
+    <name xml:lang="zh_CN">PowerTools</name>
+    <name xml:lang="zh_TW">PowerTools</name>
+    <description>EuroLinux CRB packages.</description>
+    <description xml:lang="de">EuroLinux CRB-Pakete.</description>
+    <description xml:lang="es">Paquetes EuroLinux CRB.</description>
+    <description xml:lang="fr">Packages pour EuroLinux CRB.</description>
     <description xml:lang="it">EuroLinux PowerTools pacchetti Linux Builder.</description>
-    <description xml:lang="ja">EuroLinux PowerTools Linux Builder パッケージ。</description>
-    <description xml:lang="ko">EuroLinux PowerTools Linux Builder 패키지.</description>
-    <description xml:lang="pt">Pacotes do EuroLinux PowerTools Linux Builder.</description>
-    <description xml:lang="pt_BR">Pacotes do EuroLinux PowerTools Linux Builder.</description>
-    <description xml:lang="ru">EuroLinux PowerTools Linux Builder пакеты.</description>
-    <description xml:lang="zh_CN">EuroLinux PowerTools Linux Builder 软件包。</description>
-    <description xml:lang="zh_TW">EuroLinux PowerTools Linux Builder包。</description>
+    <description xml:lang="ja">EuroLinux CRB パッケージ。</description>
+    <description xml:lang="ko">EuroLinux CRB 패키지.</description>
+    <description xml:lang="pt">Pacotes do EuroLinux CRB.</description>
+    <description xml:lang="pt_BR">Pacotes do EuroLinux CRB.</description>
+    <description xml:lang="ru">EuroLinux CRB пакеты.</description>
+    <description xml:lang="zh_CN">EuroLinux CRB 软件包。</description>
+    <description xml:lang="zh_TW">EuroLinux CRB包。</description>
     <packagelist>
       <packagereq type="default">CUnit-devel</packagereq>
       <packagereq type="default">GConf2-devel</packagereq>
@@ -47,6 +47,7 @@
       <packagereq type="default">Xaw3d-devel</packagereq>
       <packagereq type="default">accountsservice-devel</packagereq>
       <packagereq type="default">adwaita-icon-theme-devel</packagereq>
+      <packagereq type="default">anaconda-widgets-devel</packagereq>
       <packagereq type="default">ant-junit</packagereq>
       <packagereq type="default">antlr-C++</packagereq>
       <packagereq type="default">antlr-tool</packagereq>
@@ -152,6 +153,7 @@
       <packagereq type="default">docbook5-schemas</packagereq>
       <packagereq type="default">dotconf-devel</packagereq>
       <packagereq type="default">dotnet-sdk-6.0-source-built-artifacts</packagereq>
+      <packagereq type="default">dotnet-sdk-7.0-source-built-artifacts</packagereq>
       <packagereq type="default">dovecot-devel</packagereq>
       <packagereq type="default">doxygen</packagereq>
       <packagereq type="default">doxygen-doxywizard</packagereq>
@@ -214,6 +216,7 @@
       <packagereq type="default">gdk-pixbuf2-xlib</packagereq>
       <packagereq type="default">gdk-pixbuf2-xlib-devel</packagereq>
       <packagereq type="default">gdm-devel</packagereq>
+      <packagereq type="default">gdm-pam-extensions-devel</packagereq>
       <packagereq type="default">geoclue2-devel</packagereq>
       <packagereq type="default">geronimo-jms</packagereq>
       <packagereq type="default">gflags</packagereq>
@@ -278,6 +281,7 @@
       <packagereq type="default">gtest</packagereq>
       <packagereq type="default">gtest-devel</packagereq>
       <packagereq type="default">gtk-doc</packagereq>
+      <packagereq type="default">gtk3-devel-docs</packagereq>
       <packagereq type="default">gtkmm24</packagereq>
       <packagereq type="default">gtkmm24-devel</packagereq>
       <packagereq type="default">gtkmm24-docs</packagereq>
@@ -402,6 +406,7 @@
       <packagereq type="default">libdbusmenu-devel</packagereq>
       <packagereq type="default">libdbusmenu-doc</packagereq>
       <packagereq type="default">libdbusmenu-gtk3-devel</packagereq>
+      <packagereq type="default">libdhash-devel</packagereq>
       <packagereq type="default">libdnet-devel</packagereq>
       <packagereq type="default">libdv-devel</packagereq>
       <packagereq type="default">libdvdread-devel</packagereq>
@@ -412,6 +417,7 @@
       <packagereq type="default">libedit-devel</packagereq>
       <packagereq type="default">libeot</packagereq>
       <packagereq type="default">libepubgen-devel</packagereq>
+      <packagereq type="default">libestr-devel</packagereq>
       <packagereq type="default">libetonyek-devel</packagereq>
       <packagereq type="default">libevdev-devel</packagereq>
       <packagereq type="default">libexif-devel</packagereq>
@@ -703,6 +709,7 @@
       <packagereq type="default">openldap-servers</packagereq>
       <packagereq type="default">openscap-devel</packagereq>
       <packagereq type="default">openscap-engine-sce-devel</packagereq>
+      <packagereq type="default">openslp-devel</packagereq>
       <packagereq type="default">opensm-devel</packagereq>
       <packagereq type="default">opensp</packagereq>
       <packagereq type="default">opensp-devel</packagereq>
@@ -710,6 +717,7 @@
       <packagereq type="default">osgi-annotation</packagereq>
       <packagereq type="default">osgi-compendium</packagereq>
       <packagereq type="default">osgi-core</packagereq>
+      <packagereq type="default">pam_wrapper</packagereq>
       <packagereq type="default">pandoc</packagereq>
       <packagereq type="default">pangomm-devel</packagereq>
       <packagereq type="default">pangomm-doc</packagereq>
@@ -892,13 +900,16 @@
       <packagereq type="default">py3c-doc</packagereq>
       <packagereq type="default">pygobject3-devel</packagereq>
       <packagereq type="default">python-cups-doc</packagereq>
+      <packagereq type="default">python-sphinx-latex</packagereq>
       <packagereq type="default">python-sphinx-locale</packagereq>
       <packagereq type="default">python2-gluster</packagereq>
       <packagereq type="default">python2-iso8601</packagereq>
       <packagereq type="default">python2-scipy</packagereq>
       <packagereq type="default">python2-talloc</packagereq>
       <packagereq type="default">python3-Cython</packagereq>
+      <packagereq type="default">python3-babeltrace</packagereq>
       <packagereq type="default">python3-bind9.16</packagereq>
+      <packagereq type="default">python3-cairo-devel</packagereq>
       <packagereq type="default">python3-greenlet-devel</packagereq>
       <packagereq type="default">python3-html5lib</packagereq>
       <packagereq type="default">python3-httplib2</packagereq>
@@ -906,6 +917,7 @@
       <packagereq type="default">python3-imagesize</packagereq>
       <packagereq type="default">python3-iso8601</packagereq>
       <packagereq type="default">python3-javapackages</packagereq>
+      <packagereq type="default">python3-ldb-devel</packagereq>
       <packagereq type="default">python3-lesscpy</packagereq>
       <packagereq type="default">python3-libnmstate</packagereq>
       <packagereq type="default">python3-libpfm</packagereq>
@@ -927,6 +939,7 @@
       <packagereq type="default">python3-sphinx_rtd_theme</packagereq>
       <packagereq type="default">python3-sphinxcontrib-websupport</packagereq>
       <packagereq type="default">python3-sure</packagereq>
+      <packagereq type="default">python3-talloc-devel</packagereq>
       <packagereq type="default">python3-unittest2</packagereq>
       <packagereq type="default">python3-webencodings</packagereq>
       <packagereq type="default">python3-whoosh</packagereq>
@@ -1043,6 +1056,7 @@
       <packagereq type="default">xmlsec1-gnutls</packagereq>
       <packagereq type="default">xmlsec1-gnutls-devel</packagereq>
       <packagereq type="default">xmlsec1-openssl-devel</packagereq>
+      <packagereq type="default">xmlstarlet</packagereq>
       <packagereq type="default">xmltoman</packagereq>
       <packagereq type="default">xmlunit</packagereq>
       <packagereq type="default">xmvn-api</packagereq>
@@ -1061,9 +1075,12 @@
       <packagereq type="default">xorg-x11-util-macros</packagereq>
       <packagereq type="default">xorg-x11-xkb-utils-devel</packagereq>
       <packagereq type="default">xorg-x11-xtrans-devel</packagereq>
+      <packagereq type="default">xxhash-devel</packagereq>
+      <packagereq type="default">xxhash-doc</packagereq>
       <packagereq type="default">xz-java</packagereq>
       <packagereq type="default">xz-lzma-compat</packagereq>
       <packagereq type="default">yajl-devel</packagereq>
+      <packagereq type="default">yara-devel</packagereq>
       <packagereq type="default">yasm</packagereq>
       <packagereq type="default">yelp-devel</packagereq>
       <packagereq type="default">zlib-static</packagereq>

@@ -1,34 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE comps PUBLIC "-//Red Hat, Inc.//DTD Comps info//EN" "comps.dtd">
 <comps>
   <group>
-    <id>powertools</id>
+    <id>codeready-builder</id>
     <default>true</default>
     <uservisible>false</uservisible>
     <display_order>1024</display_order>
-    <name>PowerTools</name>
-    <name xml:lang="de">PowerTools</name>
-    <name xml:lang="es">Constructor PowerTools</name>
-    <name xml:lang="fr">PowerTools</name>
-    <name xml:lang="it">PowerTools</name>
-    <name xml:lang="ja">PowerTools</name>
-    <name xml:lang="ko">PowerTools</name>
-    <name xml:lang="pt">Construtor PowerTools</name>
-    <name xml:lang="pt_BR">Construtor PowerTools</name>
-    <name xml:lang="ru">PowerTools</name>
-    <name xml:lang="zh_CN">PowerTools</name>
-    <name xml:lang="zh_TW">PowerTools</name>
-    <description>EuroLinux CRB packages.</description>
-    <description xml:lang="de">EuroLinux CRB-Pakete.</description>
-    <description xml:lang="es">Paquetes EuroLinux CRB.</description>
-    <description xml:lang="fr">Packages pour EuroLinux CRB.</description>
-    <description xml:lang="it">EuroLinux PowerTools pacchetti Linux Builder.</description>
-    <description xml:lang="ja">EuroLinux CRB パッケージ。</description>
-    <description xml:lang="ko">EuroLinux CRB 패키지.</description>
-    <description xml:lang="pt">Pacotes do EuroLinux CRB.</description>
-    <description xml:lang="pt_BR">Pacotes do EuroLinux CRB.</description>
-    <description xml:lang="ru">EuroLinux CRB пакеты.</description>
-    <description xml:lang="zh_CN">EuroLinux CRB 软件包。</description>
-    <description xml:lang="zh_TW">EuroLinux CRB包。</description>
+    <name>CodeReady Builder</name>
+    <name xml:lang="de">CodeReady Builder</name>
+    <name xml:lang="es">Constructor CodeReady</name>
+    <name xml:lang="fr">CodeReady Builder</name>
+    <name xml:lang="it">CodeReady Builder</name>
+    <name xml:lang="ja">CodeReady Builder</name>
+    <name xml:lang="ko">CodeReady Builder</name>
+    <name xml:lang="pt">Construtor CodeReady</name>
+    <name xml:lang="pt_BR">Construtor CodeReady</name>
+    <name xml:lang="ru">CodeReady Builder</name>
+    <name xml:lang="zh_CN">CodeReady Builder</name>
+    <name xml:lang="zh_TW">CodeReady Builder</name>
+    <description>Red Hat CodeReady Linux Builder packages.</description>
+    <description xml:lang="de">Red Hat CodeReady Linux Builder-Pakete.</description>
+    <description xml:lang="es">Paquetes Red Hat CodeReady Linux Builder.</description>
+    <description xml:lang="fr">Packages pour Red Hat CodeReady Linux Builder.</description>
+    <description xml:lang="it">Red Hat CodeReady pacchetti Linux Builder.</description>
+    <description xml:lang="ja">Red Hat CodeReady Linux Builder パッケージ。</description>
+    <description xml:lang="ko">Red Hat CodeReady Linux Builder 패키지.</description>
+    <description xml:lang="pt">Pacotes do Red Hat CodeReady Linux Builder.</description>
+    <description xml:lang="pt_BR">Pacotes do Red Hat CodeReady Linux Builder.</description>
+    <description xml:lang="ru">Red Hat CodeReady Linux Builder пакеты.</description>
+    <description xml:lang="zh_CN">Red Hat CodeReady Linux Builder 软件包。</description>
+    <description xml:lang="zh_TW">Red Hat CodeReady Linux Builder包。</description>
     <packagelist>
       <packagereq type="default">CUnit-devel</packagereq>
       <packagereq type="default">GConf2-devel</packagereq>
@@ -85,7 +86,6 @@
       <packagereq type="default">bcel</packagereq>
       <packagereq type="default">beust-jcommander</packagereq>
       <packagereq type="default">bind9.16-devel</packagereq>
-      <packagereq type="default">bind9.16-dnssec-utils</packagereq>
       <packagereq type="default">bind9.16-doc</packagereq>
       <packagereq type="default">bison-devel</packagereq>
       <packagereq type="default">blas-devel</packagereq>
@@ -116,6 +116,7 @@
       <packagereq type="default">cdparanoia-devel</packagereq>
       <packagereq type="default">celt051-devel</packagereq>
       <packagereq type="default">cglib</packagereq>
+      <packagereq type="default">cifs-utils-devel</packagereq>
       <packagereq type="default">clucene-core-devel</packagereq>
       <packagereq type="default">clutter-devel</packagereq>
       <packagereq type="default">clutter-doc</packagereq>
@@ -474,6 +475,7 @@
       <packagereq type="default">libmtp-devel</packagereq>
       <packagereq type="default">libmusicbrainz5-devel</packagereq>
       <packagereq type="default">libnet-devel</packagereq>
+      <packagereq type="default">libnetapi-devel</packagereq>
       <packagereq type="default">libnetfilter_conntrack-devel</packagereq>
       <packagereq type="default">libnetfilter_queue-devel</packagereq>
       <packagereq type="default">libnfnetlink-devel</packagereq>
@@ -551,6 +553,8 @@
       <packagereq type="default">libthai-devel</packagereq>
       <packagereq type="default">libtheora-devel</packagereq>
       <packagereq type="default">libtiff-tools</packagereq>
+      <packagereq type="default">libtraceevent-devel</packagereq>
+      <packagereq type="default">libtracefs-devel</packagereq>
       <packagereq type="default">libucil-devel</packagereq>
       <packagereq type="default">libudisks2-devel</packagereq>
       <packagereq type="default">libunicap-devel</packagereq>
@@ -580,17 +584,22 @@
       <packagereq type="default">libwnck3-devel</packagereq>
       <packagereq type="default">libwpd-devel</packagereq>
       <packagereq type="default">libwpd-doc</packagereq>
+      <packagereq type="default">libwpe-devel</packagereq>
       <packagereq type="default">libwpg-devel</packagereq>
       <packagereq type="default">libwpg-doc</packagereq>
       <packagereq type="default">libwps-devel</packagereq>
       <packagereq type="default">libwps-doc</packagereq>
       <packagereq type="default">libwsman-devel</packagereq>
       <packagereq type="default">libxcrypt-static</packagereq>
+      <packagereq type="default">libxdp-devel</packagereq>
+      <packagereq type="default">libxdp-static</packagereq>
       <packagereq type="default">libxkbcommon-x11-devel</packagereq>
       <packagereq type="default">libxkbfile-devel</packagereq>
       <packagereq type="default">libxklavier-devel</packagereq>
       <packagereq type="default">libyaml-devel</packagereq>
       <packagereq type="default">linuxdoc-tools</packagereq>
+      <packagereq type="default">lmdb</packagereq>
+      <packagereq type="default">lmdb-devel</packagereq>
       <packagereq type="default">lockdev-devel</packagereq>
       <packagereq type="default">lpsolve-devel</packagereq>
       <packagereq type="default">lttng-ust-devel</packagereq>
@@ -744,6 +753,9 @@
       <packagereq type="default">mobile-broadband-provider-info-devel</packagereq>
       <packagereq type="default">mockito</packagereq>
       <packagereq type="default">mozjs52-devel</packagereq>
+      <packagereq type="default">mpdecimal++</packagereq>
+      <packagereq type="default">mpdecimal-devel</packagereq>
+      <packagereq type="default">mpdecimal-doc</packagereq>
       <packagereq type="default">mpg123-devel</packagereq>
       <packagereq type="default">msv-msv</packagereq>
       <packagereq type="default">mtdev-devel</packagereq>
@@ -982,6 +994,7 @@
       <packagereq type="default">poppler-qt5-devel</packagereq>
       <packagereq type="default">ppp-devel</packagereq>
       <packagereq type="default">pps-tools-devel</packagereq>
+      <packagereq type="default">procps-ng-devel</packagereq>
       <packagereq type="default">protobuf-compiler</packagereq>
       <packagereq type="default">protobuf-devel</packagereq>
       <packagereq type="default">protobuf-lite-devel</packagereq>
@@ -1003,7 +1016,6 @@
       <packagereq type="default">python2-talloc</packagereq>
       <packagereq type="default">python3-Cython</packagereq>
       <packagereq type="default">python3-babeltrace</packagereq>
-      <packagereq type="default">python3-bind9.16</packagereq>
       <packagereq type="default">python3-cairo-devel</packagereq>
       <packagereq type="default">python3-greenlet-devel</packagereq>
       <packagereq type="default">python3-html5lib</packagereq>
@@ -1025,6 +1037,7 @@
       <packagereq type="default">python3-pyxattr</packagereq>
       <packagereq type="default">python3-qt5-devel</packagereq>
       <packagereq type="default">python3-rrdtool</packagereq>
+      <packagereq type="default">python3-samba-devel</packagereq>
       <packagereq type="default">python3-scons</packagereq>
       <packagereq type="default">python3-setuptools_scm</packagereq>
       <packagereq type="default">python3-sip-devel</packagereq>
@@ -1038,6 +1051,22 @@
       <packagereq type="default">python3-unittest2</packagereq>
       <packagereq type="default">python3-webencodings</packagereq>
       <packagereq type="default">python3-whoosh</packagereq>
+      <packagereq type="default">python3.11-Cython</packagereq>
+      <packagereq type="default">python3.11-attrs</packagereq>
+      <packagereq type="default">python3.11-debug</packagereq>
+      <packagereq type="default">python3.11-idle</packagereq>
+      <packagereq type="default">python3.11-iniconfig</packagereq>
+      <packagereq type="default">python3.11-packaging</packagereq>
+      <packagereq type="default">python3.11-pluggy</packagereq>
+      <packagereq type="default">python3.11-psycopg2-debug</packagereq>
+      <packagereq type="default">python3.11-psycopg2-tests</packagereq>
+      <packagereq type="default">python3.11-pybind11</packagereq>
+      <packagereq type="default">python3.11-pyparsing</packagereq>
+      <packagereq type="default">python3.11-pytest</packagereq>
+      <packagereq type="default">python3.11-semantic_version</packagereq>
+      <packagereq type="default">python3.11-setuptools-rust</packagereq>
+      <packagereq type="default">python3.11-test</packagereq>
+      <packagereq type="default">python3.11-wheel-wheel</packagereq>
       <packagereq type="default">qatlib-devel</packagereq>
       <packagereq type="default">qatlib-tests</packagereq>
       <packagereq type="default">qatzip-devel</packagereq>
@@ -1137,6 +1166,7 @@
       <packagereq type="default">webrtc-audio-processing-devel</packagereq>
       <packagereq type="default">wireshark-devel</packagereq>
       <packagereq type="default">woff2-devel</packagereq>
+      <packagereq type="default">wpebackend-fdo-devel</packagereq>
       <packagereq type="default">xapian-core-devel</packagereq>
       <packagereq type="default">xbean</packagereq>
       <packagereq type="default">xcb-proto</packagereq>

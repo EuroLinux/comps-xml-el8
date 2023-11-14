@@ -1,6 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <comps>
   <group>
+    <id>ha-devel</id>
+    <default>true</default>
+    <uservisible>false</uservisible>
+    <display_order>1024</display_order>
+    <name>High Availability Devel</name>
+    <name xml:lang="de">Hochverfügbarkeitsentwicklung</name>
+    <name xml:lang="es">Desarrollo de alta disponibilidad</name>
+    <name xml:lang="fr">Dév Haute disponibilité</name>
+    <name xml:lang="it">Devel ad alta disponibilità</name>
+    <name xml:lang="ja">High Availability Devel</name>
+    <name xml:lang="ko">고 가용성 Devel</name>
+    <name xml:lang="pt_BR">Dispositivo de alta disponibilidade</name>
+    <name xml:lang="ru">Высокий уровень доступности</name>
+    <name xml:lang="zh_CN">高可用性开放</name>
+    <name xml:lang="zh_TW">高可用性開發</name>
+    <description>Devel packages for highly available services and/or shared storage.</description>
+    <description xml:lang="de">Entwickeln Sie Pakete für hochverfügbare Dienste und/oder gemeinsamen Speicher.</description>
+    <description xml:lang="es">Paquetes de desarrollo para servicios de alta disponibilidad y/o almacenamiento compartido.</description>
+    <description xml:lang="fr">Package développement pour les services haute disponibilité et/ou stockage partagé.</description>
+    <description xml:lang="it">Sviluppare pacchetti di sviluppo per servizi altamente disponibili e/o storage condiviso.</description>
+    <description xml:lang="ja">高可用性サービスや共有ストレージの Devel パッケージです。</description>
+    <description xml:lang="ko">고 가용성 서비스 및 / 또는 공유 스토리지를위한 패키지를 개발하십시오.</description>
+    <description xml:lang="pt_BR">Desenvolva pacotes para serviços altamente disponíveis e/ou armazenamento compartilhado.</description>
+    <description xml:lang="ru">Пакеты Devel для высокодоступных сервисов и/или совместного хранения данных.</description>
+    <description xml:lang="zh_CN">高可用性以及共享存储的开放软件包。</description>
+    <description xml:lang="zh_TW">為高可用性服務和/或共享存儲開發軟件包。</description>
+    <packagelist>
+      <packagereq type="mandatory">pacemaker-libs-devel</packagereq>
+    </packagelist>
+  </group>
+  <group>
     <id>ha</id>
     <default>true</default>
     <uservisible>false</uservisible>
@@ -97,37 +128,6 @@
       <packagereq type="optional">resource-agents-paf</packagereq>
       <packagereq type="optional">sbd</packagereq>
       <packagereq type="optional">spausedd</packagereq>
-    </packagelist>
-  </group>
-  <group>
-    <id>ha-devel</id>
-    <default>true</default>
-    <uservisible>false</uservisible>
-    <display_order>1024</display_order>
-    <name>High Availability Devel</name>
-    <name xml:lang="de">Hochverfügbarkeitsentwicklung</name>
-    <name xml:lang="es">Desarrollo de alta disponibilidad</name>
-    <name xml:lang="fr">Dév Haute disponibilité</name>
-    <name xml:lang="it">Devel ad alta disponibilità</name>
-    <name xml:lang="ja">High Availability Devel</name>
-    <name xml:lang="ko">고 가용성 Devel</name>
-    <name xml:lang="pt_BR">Dispositivo de alta disponibilidade</name>
-    <name xml:lang="ru">Высокий уровень доступности</name>
-    <name xml:lang="zh_CN">高可用性开放</name>
-    <name xml:lang="zh_TW">高可用性開發</name>
-    <description>Devel packages for highly available services and/or shared storage.</description>
-    <description xml:lang="de">Entwickeln Sie Pakete für hochverfügbare Dienste und/oder gemeinsamen Speicher.</description>
-    <description xml:lang="es">Paquetes de desarrollo para servicios de alta disponibilidad y/o almacenamiento compartido.</description>
-    <description xml:lang="fr">Package développement pour les services haute disponibilité et/ou stockage partagé.</description>
-    <description xml:lang="it">Sviluppare pacchetti di sviluppo per servizi altamente disponibili e/o storage condiviso.</description>
-    <description xml:lang="ja">高可用性サービスや共有ストレージの Devel パッケージです。</description>
-    <description xml:lang="ko">고 가용성 서비스 및 / 또는 공유 스토리지를위한 패키지를 개발하십시오.</description>
-    <description xml:lang="pt_BR">Desenvolva pacotes para serviços altamente disponíveis e/ou armazenamento compartilhado.</description>
-    <description xml:lang="ru">Пакеты Devel для высокодоступных сервисов и/или совместного хранения данных.</description>
-    <description xml:lang="zh_CN">高可用性以及共享存储的开放软件包。</description>
-    <description xml:lang="zh_TW">為高可用性服務和/或共享存儲開發軟件包。</description>
-    <packagelist>
-      <packagereq type="mandatory">pacemaker-libs-devel</packagereq>
     </packagelist>
   </group>
 </comps>

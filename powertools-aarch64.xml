@@ -281,6 +281,7 @@
       <packagereq type="default">gtest</packagereq>
       <packagereq type="default">gtest-devel</packagereq>
       <packagereq type="default">gtk-doc</packagereq>
+      <packagereq type="default">gtk-vnc2-devel</packagereq>
       <packagereq type="default">gtk3-devel-docs</packagereq>
       <packagereq type="default">gtkmm24</packagereq>
       <packagereq type="default">gtkmm24-devel</packagereq>
@@ -315,6 +316,20 @@
       <packagereq type="default">iso-codes-devel</packagereq>
       <packagereq type="default">istack-commons</packagereq>
       <packagereq type="default">jasper-devel</packagereq>
+      <packagereq type="default">java-21-openjdk-demo-fastdebug</packagereq>
+      <packagereq type="default">java-21-openjdk-demo-slowdebug</packagereq>
+      <packagereq type="default">java-21-openjdk-devel-fastdebug</packagereq>
+      <packagereq type="default">java-21-openjdk-devel-slowdebug</packagereq>
+      <packagereq type="default">java-21-openjdk-fastdebug</packagereq>
+      <packagereq type="default">java-21-openjdk-headless-fastdebug</packagereq>
+      <packagereq type="default">java-21-openjdk-headless-slowdebug</packagereq>
+      <packagereq type="default">java-21-openjdk-jmods-fastdebug</packagereq>
+      <packagereq type="default">java-21-openjdk-jmods-slowdebug</packagereq>
+      <packagereq type="default">java-21-openjdk-slowdebug</packagereq>
+      <packagereq type="default">java-21-openjdk-src-fastdebug</packagereq>
+      <packagereq type="default">java-21-openjdk-src-slowdebug</packagereq>
+      <packagereq type="default">java-21-openjdk-static-libs-fastdebug</packagereq>
+      <packagereq type="default">java-21-openjdk-static-libs-slowdebug</packagereq>
       <packagereq type="default">javamail</packagereq>
       <packagereq type="default">javapackages-local</packagereq>
       <packagereq type="default">jaxen</packagereq>
@@ -590,6 +605,7 @@
       <packagereq type="default">lua-posix</packagereq>
       <packagereq type="default">lvm2-devel</packagereq>
       <packagereq type="default">lynx</packagereq>
+      <packagereq type="default">marisa-devel</packagereq>
       <packagereq type="default">maven-archiver</packagereq>
       <packagereq type="default">maven-artifact</packagereq>
       <packagereq type="default">maven-artifact-manager</packagereq>
@@ -1049,6 +1065,7 @@
       <packagereq type="default">uglify-js</packagereq>
       <packagereq type="default">uid_wrapper</packagereq>
       <packagereq type="default">unicode-ucd-unihan</packagereq>
+      <packagereq type="default">unifdef</packagereq>
       <packagereq type="default">upower-devel</packagereq>
       <packagereq type="default">upower-devel-docs</packagereq>
       <packagereq type="default">urw-base35-fonts-devel</packagereq>
